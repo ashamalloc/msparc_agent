@@ -1,0 +1,8 @@
+google-genai>=2.3.0
+streamlit>=1.39.0
+matplotlib>=3.8.0
+pytest>=8.0.0
+
+# MATLAB Engine is intentionally installed separately because its version must
+# match the user's MATLAB release. Example for MATLAB R2026a (26.1):
+# python -m pip install matlabengine==26.1.12
